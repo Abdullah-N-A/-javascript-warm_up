@@ -1,3 +1,4 @@
+```
 classDiagram
 direction LR
 
@@ -70,7 +71,7 @@ Place "1" --> "0..*" Review : has
 
 %% A User can write many Reviews; each Review is written by exactly one User
 User "1" --> "0..*" Review : writes
-
+```
 %% Many-to-many: Places <-> Amenities
 Place "0..*" -- "0..*" Amenity : includes
 
