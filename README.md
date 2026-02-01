@@ -1,3 +1,5 @@
+
+```mermaid
 classDiagram
 direction LR
 
@@ -53,3 +55,4 @@ Place "1" --> "0..*" Review : has
 Place "0..*" -- "0..*" Amenity : includes
 Review "1" --> "1" User : author
 Review "1" --> "1" Place : about
+```
